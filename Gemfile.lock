@@ -1,7 +1,12 @@
 PATH
+  remote: ../potter
+  specs:
+    potter (0.1.0)
+
+PATH
   remote: .
   specs:
-    discord (0.1.0)
+    discord-ruby (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -27,7 +32,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  discord!
+  discord-ruby!
+  potter!
   rake (~> 13.0)
   rspec (~> 3.0)
 
