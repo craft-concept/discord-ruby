@@ -1,5 +1,3 @@
-require_relative "resource"
-
 module Discord
   class Channel < Resource
     summary "Represents a guild or DM channel within Discord."
