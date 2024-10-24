@@ -1,2 +1,2 @@
 inherit_gem:
-  cnc: .rubocop.yml
+  cnc: rubocop.yml
