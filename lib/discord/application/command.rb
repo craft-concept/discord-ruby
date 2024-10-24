@@ -1,6 +1,3 @@
-require_relative '../resource'
-
-module Discord
   module Application
     class Command < Resource
       summary 'Application commands are native ways to interact with apps in the Discord client.'
