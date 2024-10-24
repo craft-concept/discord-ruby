@@ -1,4 +1,4 @@
-require_relative 'resource'
+require_relative '../resource'
 
 module Discord
   module Application

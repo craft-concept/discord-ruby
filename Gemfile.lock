@@ -1,7 +1,7 @@
 PATH
   remote: ../cnc
   specs:
-    cnc (0.1.1)
+    cnc (0.1.4)
       dry-cli
       rails
       rubocop-rails-omakase
@@ -10,7 +10,6 @@ PATH
   remote: ../potter
   specs:
     potter (0.1.0)
-      activemodel
 
 PATH
   remote: .
