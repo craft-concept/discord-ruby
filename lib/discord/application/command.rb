@@ -1,4 +1,5 @@
-  module Application
+module Discord
+  class Application
     class Command < Resource
       summary 'Application commands are native ways to interact with apps in the Discord client.'
 
