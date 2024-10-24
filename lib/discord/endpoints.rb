@@ -7,5 +7,9 @@ module Discord
       resource  :typing,      only: [:create]
       resources :pins,        only: [:index]
     end
+
+    resources :applications do
+      resources :commands
+    end
   end
 end
