@@ -3,12 +3,12 @@ module Discord
     class Command < Resource
       summary "Application commands are native ways to interact with apps in the Discord client."
 
-      field :id,                       :snowflake, description: "the unique ID of command"
-      field :type,                     "Type",     description: "the type of command"
-      field :application_id,           :snowflake, description: "the ID of the parent application"
-      field :guild_id,                 :snowflake, description: "Guild ID of the command, if not global"
-      field :name,                     :string,    description: "Name of command, 1-32 characters"
-      field :description,              :string,    description: ""
+      field :id,             :snowflake, description: "the unique ID of command"
+      field :type?,          "Type",     description: "the type of command"
+      field :application_id, :snowflake, description: "the ID of the parent application"
+      field :guild_id?,      :snowflake, description: "Guild ID of the command, if not global"
+      field :name,           :string,    description: "Name of command, 1-32 characters"
+      field :description,    :string,    description: ""
 
       class Type < Enum(Integer)
         const :CHAT_INPUT,          1, description: "Slash commands; a text-based command that shows up when a user types `/`"
