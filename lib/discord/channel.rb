@@ -1,5 +1,5 @@
 module Discord
-  class Channel < Resource
+  class Channel < Model
     summary "Represents a guild or DM channel within Discord."
 
     field :id,        :snowflake, description: "the id of this channel"

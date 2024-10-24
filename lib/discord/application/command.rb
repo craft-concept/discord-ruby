@@ -1,6 +1,6 @@
 module Discord
   class Application
-    class Command < Resource
+    class Command < Model
       summary "Application commands are native ways to interact with apps in the Discord client."
 
       field :id,             :snowflake, description: "the unique ID of command"
