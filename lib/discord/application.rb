@@ -1,6 +1,6 @@
 require_relative 'resource'
 
 module Discord
-  class Application
+  class Application < Resource
   end
 end
